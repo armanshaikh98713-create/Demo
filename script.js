@@ -9,6 +9,7 @@ const slider = document.getElementById('videoSlider');
     const lastClone = slides[slides.length - 1].cloneNode(true);
     firstClone.id = 'first-clone';
     lastClone.id = 'last-clone';
+    console.log("Hello World")
 
     slider.appendChild(firstClone);
     slider.insertBefore(lastClone, slides[0]);
