@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Demo</title>
+  <link rel="stylesheet" href="video.css"/>
+  <link rel="stylesheet" href="1.css">
+  
+</head>
+<body>
+  <section class="product-demo">
+    <h2>Our Product in Action</h2>
+    <div class="slider-container">
+      <button class="prev">&#10094;</button>
+      <div class="video-slider" id="videoSlider">
+        <div class="slide"><video src="video.mp4"></video><p>Product Details 1</p><p class="extra-desc" hidden>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quas, repellat praesentium hic, quis assumenda impedit corrupti illo, magnam dolor ea quod enim. Magni id delectus repellendus explicabo blanditiis qui.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium quibusdam velit voluptas facere quaerat. Iste quos maxime esse, eum atque earum? Est vitae laborum ipsam quia aliquid impedit velit. Quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores est ducimus ab architecto nam optio? Dicta repellendus culpa alias? Itaque accusantium nesciunt minus illo, quia nisi eos id quaerat! lo</p></div>
+        <div class="slide"><video src="video.mp4"></video><p>Product Details 2</p></div>
+        <div class="slide"><video src="video.mp4"></video><p>Product Details 3</p></div>
+        <div class="slide"><video src="video.mp4"></video><p>Product Details 4</p></div>
+        <div class="slide"><video src="video.mp4"></video><p>Product Details 5</p></div>
+        <div class="slide"><video src="video.mp4"></video><p>Product Details 6</p></div>
+      </div>
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Modal HTML -->
+  <div class="video-modal" id="videoModal">
+    <div class="video-modal-content">
+      <span class="close-modal" id="closeModal">&times;</span>
+      <video id="modalVideo" controls></video>
+      <p id="modalDescription"></p>
+      <p id="modalExtraDesc"></p>
+    </div>
+  </div>
+
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>
